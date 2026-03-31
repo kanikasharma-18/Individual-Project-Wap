@@ -37,7 +37,6 @@ https://api.jikan.moe/v4/top/anime
 - CSS  
 - JavaScript  
 - Fetch API  
-- LocalStorage  
 
 ---
 
@@ -65,7 +64,7 @@ git clone https://github.com/your-username/Individual-Project-Wap.git
 ## Concepts Used
 
 - Fetch API  
-- Array methods (map, filter, sort, find)  
+- Array methods (map, filter, sort, find,forEach)  
 - DOM manipulation  
 - Event handling  
 
@@ -90,7 +89,7 @@ git clone https://github.com/your-username/Individual-Project-Wap.git
 ## Project Status
 
 Milestone 1: Completed  
-Milestone 2: In Progress  
+Milestone 2: Completed  
 Milestone 3: Pending  
 Milestone 4: Pending  
 
