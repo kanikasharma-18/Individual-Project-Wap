@@ -6,24 +6,22 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Kaushan+Script&family=Yellowtail&family=Permanent+Marker&family=Bangers&family=Courgette&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Bangers&display=swap" rel="stylesheet">
 </head>
 <body>
-
-
     <!-- nav bar -->
     <nav>
         <h3>Find Your Next Anime</h3>
         <h2>Otaku Oracle</h2>
         <div class="nav-link">
             <a href="">Browse</a>
-            <a href="">Dark Mode</a>
+            <a href="#" id="themeToggle"> Dark Mode</a>
             <a href="">Profile</a>
         </div>
     </nav>
-
      <!-- hero section -->
+    <div class="hero-section">
     <div class="hero-bg" id="heroBg"></div>
- 
     <!-- left panel -->
     <div class="hero-info" id="heroInfo">
       <div class="hero-rank" id="heroRank">— TRENDING #1</div>
@@ -35,22 +33,104 @@
         <button class="btn-info">+ Watchlist</button>
       </div>
     </div>
-
     <!-- image slider -->
     <div class="hero-slider">
       <div class="slides-track" id="slidesTrack"></div>
     </div>
- 
     <!-- arrows -->
     <button class="hero-arrow left" id="prevBtn">&#8592;</button>
     <button class="hero-arrow right" id="nextBtn">&#8594;</button>
- 
     <!-- dots -->
     <div class="hero-dots" id="heroDots"></div>
-
-     
-
-
+    </div>
+    <section id="anime-section">
+        <div class="anime-section-header">
+            <h2>DISCOVER <span>ANIME</span></h2>
+            <div class="header-line"></div>
+        </div>
+        <!-- Controls -->
+        <div id="anime-controls">
+            <div class="anime-search-wrap">
+                <span class="search-icon">🔍</span>
+                <input type="text" id="anime-search" placeholder="Search anime titles..." autocomplete="off" spellcheck="false"/>
+            </div>
+            <div class="anime-select-wrap">
+                <select id="anime-genre" class="anime-control">
+                    <option value="">All Genres</option>
+                    <option>Action</option>
+                    <option>Adventure</option>
+                    <option>Comedy</option>
+                    <option>Drama</option>
+                    <option>Fantasy</option>
+                    <option>Mystery</option>
+                    <option>Romance</option>
+                    <option>Sci-Fi</option>
+                    <option>Supernatural</option>
+                </select>
+            </div>
+            <button id="anime-sort" class="anime-control">
+                <span>⭐</span> Top Rated
+            </button>
+        </div>
+        <!-- Results meta -->
+        <div id="anime-meta">
+            <p class="anime-count" id="anime-count"></p>
+            <div class="anime-tags" id="anime-tags"></div>
+        </div> 
+        <!-- Empty state -->
+        <div id="anime-empty">
+            <div class="empty-icon">🔍</div>
+            <p class="empty-title">No Results Found</p>
+            <p class="empty-sub">Try a different search term or remove some filters</p>
+        </div>
+        <!-- Grid -->
+        <div id="anime-grid"></div>
+    </section>
+    <!-- FOOTER -->
+<footer class="site-footer">
+  <div class="footer-top">
+    <!-- Brand -->
+    <div class="footer-brand">
+      <h2 class="footer-logo">Otaku Oracle</h2>
+      <p class="footer-tagline">
+        Your gateway to the world of anime.<br/>
+        Discover, explore, and obsess.
+      </p>
+    </div>
+    <!-- Explore -->
+    <div class="footer-col">
+      <h4>Explore</h4>
+      <a href="#">Top Anime</a>
+      <a href="#">Seasonal</a>
+      <a href="#">Movies</a>
+      <a href="#">Genres</a>
+    </div>
+    <!-- Account -->
+    <div class="footer-col">
+      <h4>Account</h4>
+      <a href="#">Sign Up</a>
+      <a href="#">Login</a>
+      <a href="#">Watchlist</a>
+      <a href="#">Settings</a>
+    </div>
+    <!-- Company -->
+    <div class="footer-col">
+      <h4>Company</h4>
+      <a href="#">About Us</a>
+      <a href="#">Contact</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms of Use</a>
+    </div>
+  </div>
+  <!-- Bottom -->
+  <div class="footer-bottom">
+    <p>© 2026 <span>Otaku Oracle</span>. All rights reserved.</p>
+    <p>
+      Data powered by 
+      <a href="https://jikan.moe" target="_blank">Jikan API</a> & MyAnimeList
+    </p>
+  </div>
+</footer>
     <script src="script.js"></script>
 </body>
-</html>
+</html> 

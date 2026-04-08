@@ -13,11 +13,12 @@ This project demonstrates JavaScript concepts like API integration, DOM manipula
 
 - Search anime by title  
 - Filter anime by genre  
-- Sort anime by rating or popularity  
-- Expandable cards to view synopsis and details  
-- Add or remove anime from watchlist (using localStorage)  
+- Sort anime by rating 
+- Expandable synopsis section
 - Dark mode / light mode toggle  
 - Random anime suggestion  
+- Debounced search for better performance
+
 
 ---
 
@@ -45,7 +46,6 @@ https://api.jikan.moe/v4/top/anime
 index.html  
 style.css  
 script.js  
-api.js  
 README.md  
 
 ---
@@ -90,7 +90,7 @@ git clone https://github.com/your-username/Individual-Project-Wap.git
 
 Milestone 1: Completed  
 Milestone 2: Completed  
-Milestone 3: Pending  
+Milestone 3: Completed   
 Milestone 4: Pending  
 
 ---
