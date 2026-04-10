@@ -9,7 +9,7 @@ This project demonstrates JavaScript concepts like API integration, DOM manipula
 
 ---
 ## Live Demo
-https://github.com/kanikasharma-18/Individual-Project-Wap
+https://otakuoracle.netlify.app/
 
 ---
 
