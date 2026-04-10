@@ -8,6 +8,10 @@ The name “Otaku Oracle” represents a smart guide for anime lovers, helping t
 This project demonstrates JavaScript concepts like API integration, DOM manipulation, and array higher-order functions.
 
 ---
+## Live Demo
+https://github.com/kanikasharma-18/Individual-Project-Wap
+
+---
 
 ## Features
 
