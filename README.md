@@ -91,7 +91,7 @@ git clone https://github.com/your-username/Individual-Project-Wap.git
 Milestone 1: Completed  
 Milestone 2: Completed  
 Milestone 3: Completed   
-Milestone 4: Pending  
+Milestone 4: Completed
 
 ---
 ## Author
