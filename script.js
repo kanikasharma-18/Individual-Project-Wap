@@ -3,8 +3,6 @@ const synopsis = document.getElementById("heroSynopsis");
 synopsis.addEventListener("click", () => {
   synopsis.classList.toggle("expanded");
 });
-
-const container   = document.getElementById("container");
 const slidesTrack = document.getElementById("slidesTrack");
 const heroBg      = document.getElementById("heroBg");
 const heroRank    = document.getElementById("heroRank");
